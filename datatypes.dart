@@ -18,9 +18,9 @@ print ("cars: $cars");
 
 //example of map data type
 Map<String, dynamic> persons= {
-  'Name': 'Fredy'
-  "age": 28; 
-  'height': 6.0;
+  'Name': 'Fredy',
+  'age': 28,
+  'height': 6.0,
   'cars': ["audi", "toyota", "subaru"]};
   print ("Person: $persons");
 
@@ -31,9 +31,10 @@ Map<String, dynamic> persons= {
   double adjustedheight = height -1.6;
   print ('After the accident, height will be: $adjustedheight');
 
-  String greetings = 'Hello ' + name;
-  print ("greetings: $name");
+  String greetings = 'Hello $name';
+  print ("Greetings: $greetings");
 
   cars.add("mercedes benz");
   print("adjusted cars list: $cars");
 }
+
